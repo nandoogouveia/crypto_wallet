@@ -7,14 +7,7 @@
 <P>Imprimindo a variavel a: <%= ax %></P>
 <p>A data de hoje é: <%= Date.today %></p>
 
-<ul>
-    <li>
-        <a href="/coins">Cadastro de Moedas</a>
-    </li>
-    <li>
-        <%= link_to "Cadastro de Moedas", coins_path %>
-    </li>
-</ul>
+<%= render "menu" %>
 
 <p> Eu sou <%= @nome %> </p>
 <p> Meu curso é <%= @curso %> </p>
